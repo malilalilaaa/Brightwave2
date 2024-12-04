@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung2"
+    tools:context=".Dashboard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="50dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/g1" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text="WELCOME TO BRIGHTWAVE"
+                        android:textSize="28dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue3"
+                        android:shadowColor="#000000"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="3"
+                        android:gravity="center"
+                        android:fontFamily="sans-serif-black" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="150dp"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="55dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/technique"
+                            android:layout_marginEnd="10dp" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/progress"
+                            android:layout_marginEnd="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="55dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/quite"
+                            android:layout_marginEnd="10dp" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/resourses"
+                            android:layout_marginEnd="10dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginHorizontal="55dp">
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/quite"
+                            android:layout_marginEnd="10dp" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/resourses"
+                            android:layout_marginEnd="10dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
