@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669839760879",
+    "project_id": "brightwave-86a39",
+    "storage_bucket": "brightwave-86a39.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669839760879:android:988390e5d1b902d033ea1a",
+        "android_client_info": {
+          "package_name": "com.example.brightwave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIxWQ2Gm5PIiZtzLVnY3cypIZ3_W8u9b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

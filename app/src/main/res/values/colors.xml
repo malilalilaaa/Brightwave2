@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue1">#FF4A628A</color>
+    <color name="blue2">#FF7AB2D3</color>
+    <color name="blue3">#FFB9E5E8</color>
+    <color name="blue4">#FFDFF2EB</color>
+    <color name="logincard">#1A3C70</color>
+    <color name="cardtextcolor">#4A628A</color>
+
+</resources>
